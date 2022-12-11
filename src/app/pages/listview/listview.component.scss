@@ -1,0 +1,172 @@
+.listview-container {
+    padding-bottom: 30px;
+
+    .listview-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1.2px solid #E7E9EB;
+        padding-bottom: 9px;
+
+        .sorting-right-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .list-thumbnail-card {
+                .bx {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .list-icon-card {
+                padding: 0 10px;
+
+                .bx {
+                    font-size: 1.5rem;
+                    background: #E7E9EB;
+                }
+            }
+
+        }
+
+        .create-btn-card {
+            .btn-create {
+                border: 1px solid #c5c8cb;
+                background: #fff;
+                font-size: 12px;
+                font-weight: normal;
+                font-family: 'Roboto';
+
+                .bx {
+                    font-weight: 600;
+                    vertical-align: middle;
+                    vertical-align: inherit;
+                    font-size: 12px;
+                }
+
+                i.create-right {
+                    font-size: 18px;
+                    margin-left: 6px;
+                }
+            }
+        }
+    }
+
+    .recent-images-container {
+        margin-top: 2rem;
+
+        h1 {
+            font-size: 1rem;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        h3 {
+            font-size: .75rem;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        .recent-images-card {
+            p {
+                margin-bottom: 0;
+                // font-weight: 600;
+                margin-bottom: 12px;
+                font-size: 12px;
+            }
+
+            .recent-images-row {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                flex-wrap: wrap;
+
+                .image-card {
+                    padding-right: 15.8px;
+
+                    img {
+                        border-radius: 5px 5px 0px 0;
+                    }
+
+                    .image-title-card {
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+                        border: 1.5px solid #000;
+                        border-radius: 0px 0px 5px 5px;
+                        padding: 5px;
+
+                        .image-icon {
+                            svg {
+                                vertical-align: sub;
+                            }
+                        }
+
+                        .image-title {
+                            p {
+                                margin-bottom: 0;
+                                font-size: 14px;
+                                margin-left: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .files-container {
+        .files-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .main-title{
+                a{
+                    color: #000;
+                }
+            }
+        }
+    }
+    .table-first-clm{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        
+        .list-icon{
+            margin-right:12px ;
+            p{
+                margin-bottom: 0;
+                font-size: 12px;
+            }
+        }
+    }
+.listview-grid-container{
+    margin-top: 30px;
+ table{
+    th{
+        font-size: 12px;
+        padding:12px;
+    }
+    tbody{
+        margin-bottom: 12px;
+        tr{
+            border:0 solid transparent;
+            td{
+                font-size: 12px;
+            }
+           
+            .text-secondary{
+                ul{
+                    margin-bottom: 0;
+                    li{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+ }   
+}
+
+}

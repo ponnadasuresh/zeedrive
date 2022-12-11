@@ -1,0 +1,156 @@
+<div class="listview-container">
+    <div class="listview-card">
+        <div class="create-btn-card">
+            <button type="button" class="btn btn-md btn-create btn-light"><i class='bx bx-plus'></i> Create <i
+                    class='create-right bx bx-chevron-right'></i></button>
+        </div>
+        <div class="sorting-right-card">
+            <div class="list-icon-card">
+                <i class='bx bx-list-ul'></i>
+            </div>
+            <div class="list-thumbnail-card">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="recent-images-container">
+        <h1>Zee Drive</h1>
+        <div class="recent-images-card">
+           
+    <div class="files-container">
+        <div class="files-row">
+            <div class="main-title">
+                <h3>Recent files</h3>
+            </div>
+            <div class="main-title">
+                <h3><a href="#">View All</a></h3>
+            </div>
+        </div>
+    </div>
+            <div class="recent-images-row">
+                <div class="image-card" *ngFor="let recent of recentImages">
+                    <img src="{{recent.url}}" width="154px" alt="" srcset="">
+                    <div class="image-title-card">
+                        <div class="image-icon">
+                            <svg width="19" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.5 14H15.5L11.75 9L8.75 13L6.5 10L3.5 14ZM0.5 18V0H18.5V18H0.5Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+                        <div class="image-title">
+                            <p>Image-1.pdf file</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="listview-grid-container">
+    
+    <table class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Modified</th>
+            <th>Owner</th>
+            <th>File size</th>
+          </tr>
+        </thead>
+        <div style="margin-top: 22px;"></div>
+        <tbody class="margin-body">
+          <tr>
+            <th scope="row">
+                <div class="table-first-clm">
+                    <div class="list-icon">
+                        <img src="assets/images/foldericon.png" width="30px" alt="" srcset="">
+                    </div>
+                    <div class="list-icon">
+                        <p>Zee drive -celebration-neha</p>
+                    </div>
+                </div>
+            </th>
+            <td class="text-secondary">
+               <ul style="list-style: none; padding-left: 0;">
+                <li>
+                    2/12/2022
+                </li>
+                <li>You</li>
+               </ul> 
+            </td>
+            <td class="text-secondary">You</td>
+            <td class="text-secondary">1 KB</td>
+          </tr>
+          <tr>
+            <th scope="row">
+                <div class="table-first-clm">
+                    <div class="list-icon">
+                        <img src="assets/images/foldericon.png" width="30px" alt="" srcset="">
+                    </div>
+                    <div class="list-icon">
+                        <p>Zee drive -celebration-neha</p>
+                    </div>
+                </div>
+            </th>
+            <td class="text-secondary">
+               <ul style="list-style: none; padding-left: 0;">
+                <li>
+                    2/12/2022
+                </li>
+                <li>You</li>
+               </ul> 
+            </td>
+            <td class="text-secondary">You</td>
+            <td class="text-secondary">1 KB</td>
+          </tr>
+          <tr>
+            <th scope="row">
+                <div class="table-first-clm">
+                    <div class="list-icon">
+                        <img src="assets/images/listimg.png" width="30px" alt="" srcset="">
+                    </div>
+                    <div class="list-icon">
+                        <p>Zee Drive-brightness-and-contrast-407792.svg</p>
+                    </div>
+                </div>
+            </th>
+            <td class="text-secondary">
+               <ul style="list-style: none; padding-left: 0;">
+                <li>
+                    2/12/2022
+                </li>
+                <li>You</li>
+               </ul> 
+            </td>
+            <td class="text-secondary">You</td>
+            <td class="text-secondary">1 KB</td>
+          </tr>
+          <tr>
+            <th scope="row">
+                <div class="table-first-clm">
+                    <div class="list-icon">
+                        <img src="assets/images/listimg.png" width="30px" alt="" srcset="">
+                    </div>
+                    <div class="list-icon">
+                        <p>Zee Drive-brightness-and-contrast-407792.svg</p>
+                    </div>
+                </div>
+            </th>
+            <td class="text-secondary">
+               <ul style="list-style: none; padding-left: 0;">
+                <li>
+                    2/12/2022
+                </li>
+                <li>You</li>
+               </ul> 
+            </td>
+            <td class="text-secondary">You</td>
+            <td class="text-secondary">1 KB</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+
+</div>
